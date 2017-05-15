@@ -27,9 +27,5 @@ export declare class CheckBox extends View {
 }
 
 export interface CheckBoxInterface {
-    text?: string;
-    checked: boolean;
-    fillColor: string;
-    tintColor: string;
     toggle(): void;
 }

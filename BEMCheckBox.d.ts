@@ -17,8 +17,6 @@ declare class BEMAnimationManager extends NSObject {
 
 	opacityAnimationReverse(reverse: boolean): CABasicAnimation;
 
-	self(): BEMAnimationManager; // inherited from NSObjectProtocol
-
 	strokeAnimationReverse(reverse: boolean): CABasicAnimation;
 }
 
@@ -88,8 +86,6 @@ declare class BEMCheckBox extends UIView {
 
 	reload(): void;
 
-	self(): BEMCheckBox; // inherited from NSObjectProtocol
-
 	setOnAnimated(on: boolean, animated: boolean): void;
 }
 
@@ -129,6 +125,4 @@ declare class BEMPathManager extends NSObject {
 	pathForFlatCheckMark(): UIBezierPath;
 
 	pathForLongCheckMark(): UIBezierPath;
-
-	self(): BEMPathManager; // inherited from NSObjectProtocol
 }
